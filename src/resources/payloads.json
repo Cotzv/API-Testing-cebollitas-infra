@@ -1,0 +1,22 @@
+{
+    "UserById": {
+        "POST": {
+            "username": "test",
+            "email": "test@no-reply.com",
+            "password": "test",
+            "roles": ["administrator"]
+        },
+        "PUT": {
+            "description": "This is a PUT test"
+        },
+        "DELETE_USER": {
+            "data": {
+                "force": "true",
+                "reassign": ""
+            }
+        },
+        "NEGATIVE_PUT": {
+            "locale": "-5"
+        }
+    }
+}

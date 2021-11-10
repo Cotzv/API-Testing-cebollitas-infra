@@ -1,0 +1,16 @@
+{
+    "ValidCredentials" : {
+        "baseURL":"https://todo.ly", 
+        "auth": {
+            "username": "bmvclwtcbeqsergdrp@pptrvv.com", 
+            "password": "Control123!"
+        }
+    },
+    "InvalidCredentials" : {
+        "baseURL":"https://todo.ly", 
+        "auth": {
+            "username": "bmvclwtcbeqsergdrp@pptrvv.com", 
+            "password": "trol123!123456"
+        }
+    }
+}
