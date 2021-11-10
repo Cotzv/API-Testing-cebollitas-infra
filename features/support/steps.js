@@ -11,8 +11,12 @@ Given(/^I have valid credentials$/, function () {
     validCredentials = true;
 })
 
-Given(/^I have a payload$/, function (table) {
+/*Given(/^I have a payload$/, function (table) {
     data = payloads.UserById[table.rowsHash().payload]
+})*/
+
+Given(/^I have a (.*)$/, async function (payload) {
+    data = payloads.UserById[payload]
 })
 
 Given(/^background test$/, function () {
