@@ -1,0 +1,9 @@
+{
+    "projects": "projects.json",
+    "projectById": "projects/{id}.json",
+    "createUser": "user.json",
+    "Pages": {
+        "pages": "pages",
+        "pagesById": "pages/{id}"
+    }
+}

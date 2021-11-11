@@ -1,0 +1,10 @@
+{
+    "Pages": {
+        "POST": {
+            "title": "Hello world {value}"
+        },
+        "PUT": {
+            "title": "Hello world {value} updated"
+        }
+    }
+}
